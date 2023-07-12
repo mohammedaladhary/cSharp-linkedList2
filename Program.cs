@@ -7,14 +7,13 @@
             Console.WriteLine("Hello, World!");
 
             List<string> list = new List<string>();
-            list.Add("a");
+            list.Add("k");
             list.Add("b");
             list.Add("c");
             list.Remove("a");
             list.Insert(0, "kl");
             Console.WriteLine(list[0]);
 
-            list.Sort();
             foreach (string item in list) 
             {
                 Console.WriteLine(item);
@@ -22,7 +21,7 @@
 
 
             List<Person> people = new List<Person>();
-            people.Add(new Person(1201,"Ahmed","Male",21));
+            people.Add(new Person(1201,"Ahmed","Male",41));
             people.Add(new Person(8553, "Salim", "Male",32));
             people.Add(new Person(3745, "Emilia", "Female",63));
 
