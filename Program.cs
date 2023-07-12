@@ -55,6 +55,8 @@
             list.Add("kross");
             list.Add("benzema");
 
+            //rmvElementAndSortString rmvElement = new rmvElementAndSortString();
+
             //remove the words that contains a specific character
             Console.WriteLine("Enter a character to remove from the list:");
             string input = Console.ReadLine();
@@ -69,6 +71,16 @@
                 Console.WriteLine(s);
             }
             //----------------------task3-list-------------------------------
+            List<int> newList = new List<int>() { 10, 20, 30, 40, 50 };
+
+            // Create an instance of the internal class
+            findMaxInt findMax = new findMaxInt();
+
+            // Call the method and store the result
+            int max = findMax.findMaxInteger(newList);
+
+            // Print the result
+            Console.WriteLine("The maximum value in the list is: " + max);
         }
     }
 }
