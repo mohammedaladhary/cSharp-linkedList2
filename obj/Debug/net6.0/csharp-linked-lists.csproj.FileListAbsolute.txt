@@ -1,0 +1,15 @@
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\bin\Debug\net6.0\csharp-linked-lists.exe
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\bin\Debug\net6.0\csharp-linked-lists.deps.json
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\bin\Debug\net6.0\csharp-linked-lists.runtimeconfig.json
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\bin\Debug\net6.0\csharp-linked-lists.dll
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\bin\Debug\net6.0\csharp-linked-lists.pdb
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\csharp-linked-lists.csproj.AssemblyReference.cache
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\csharp-linked-lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\csharp-linked-lists.AssemblyInfoInputs.cache
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\csharp-linked-lists.AssemblyInfo.cs
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\csharp-linked-lists.csproj.CoreCompileInputs.cache
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\csharp-linked-lists.dll
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\refint\csharp-linked-lists.dll
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\csharp-linked-lists.pdb
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\csharp-linked-lists.genruntimeconfig.cache
+C:\Users\TRA\Desktop\code_TRA\csharp-linked-lists\obj\Debug\net6.0\ref\csharp-linked-lists.dll
