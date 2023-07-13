@@ -48,39 +48,67 @@
             //}
             //Console.WriteLine();
             //------------------task2-list----------------------------
-            List<string> list = new List<string>();
-            list.Add("marcelo");
-            list.Add("ronaldo");
-            list.Add("bale");
-            list.Add("kross");
-            list.Add("benzema");
+            //List<string> list = new List<string>();
+            //list.Add("marcelo");
+            //list.Add("ronaldo");
+            //list.Add("bale");
+            //list.Add("kross");
+            //list.Add("benzema");
 
-            //rmvElementAndSortString rmvElement = new rmvElementAndSortString();
+            ////rmvElementAndSortString rmvElement = new rmvElementAndSortString();
 
-            //remove the words that contains a specific character
-            Console.WriteLine("Enter a character to remove from the list:");
-            string input = Console.ReadLine();
-            char c = input[0];
-            Console.WriteLine();
-            List<string> modifiedList = rmvElementAndSortString.removeChar(list, c);
+            ////remove the words that contains a specific character
+            //Console.WriteLine("Enter a character to remove from the list:");
+            //string input = Console.ReadLine();
+            //char c = input[0];
+            //Console.WriteLine();
+            //List<string> modifiedList = rmvElementAndSortString.removeChar(list, c);
 
-            // Print the modified list
-            Console.WriteLine("The modified list is:");
-            foreach (string s in modifiedList)
+            //// Print the modified list
+            //Console.WriteLine("The modified list is:");
+            //foreach (string s in modifiedList)
+            //{
+            //    Console.WriteLine(s);
+            //}
+            ////----------------------task3-list-------------------------------
+            //List<int> newList = new List<int>() { 10, 20, 30, 40, 50 };
+
+            //// Create an instance of the internal class
+            //findMaxInt findMax = new findMaxInt();
+
+            //// Call the method and store the result
+            //int max = findMax.findMaxInteger(newList);
+
+            //// Print the result
+            //Console.WriteLine("The maximum value in the list is: " + max);
+
+            List<int> ints = new List<int>();
+            ints.Add(3);
+            ints.Add(2);
+            ints.Add(5);
+            ints.Add(2);
+            ints.Add(8);
+            ints.Add(3);
+            ints.Add(1);
+
+
+            HashSet<int> set = new HashSet<int>();
+            foreach (int i in ints)
             {
-                Console.WriteLine(s);
+                Console.WriteLine(set.Add(i));
             }
-            //----------------------task3-list-------------------------------
-            List<int> newList = new List<int>() { 10, 20, 30, 40, 50 };
+            //Console.WriteLine(ints.Contains(1));
 
-            // Create an instance of the internal class
-            findMaxInt findMax = new findMaxInt();
+            //HashSet<int> set1 = new HashSet<int> { 1, 2, 3, 4 };
+            //HashSet<int> set2 = new HashSet<int> { 1,5, 7, 9 };
 
-            // Call the method and store the result
-            int max = findMax.findMaxInteger(newList);
+            //HashSet<int> set3 = set1.Intersect(set2).ToHashSet();
 
-            // Print the result
-            Console.WriteLine("The maximum value in the list is: " + max);
+            //foreach (int i in set3)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
         }
     }
 }
