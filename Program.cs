@@ -82,21 +82,21 @@
             //// Print the result
             //Console.WriteLine("The maximum value in the list is: " + max);
 
-            List<int> ints = new List<int>();
-            ints.Add(3);
-            ints.Add(2);
-            ints.Add(5);
-            ints.Add(2);
-            ints.Add(8);
-            ints.Add(3);
-            ints.Add(1);
+            //List<int> ints = new List<int>();
+            //ints.Add(3);
+            //ints.Add(2);
+            //ints.Add(5);
+            //ints.Add(2);
+            //ints.Add(8);
+            //ints.Add(3);
+            //ints.Add(1);
 
 
-            HashSet<int> set = new HashSet<int>();
-            foreach (int i in ints)
-            {
-                Console.WriteLine(set.Add(i));
-            }
+            //HashSet<int> set = new HashSet<int>();
+            //foreach (int i in ints)
+            //{
+            //    Console.WriteLine(set.Add(i));
+            //}
             //Console.WriteLine(ints.Contains(1));
 
             //HashSet<int> set1 = new HashSet<int> { 1, 2, 3, 4 };
@@ -108,7 +108,20 @@
             //{
             //    Console.WriteLine(i);
             //}
+            //------------------StackBracketBalance---------------
+            string expression = "{[()]}";
+            stackBracketBalance checker = new stackBracketBalance();
 
+            if (checker.IsBalanced(expression, out string explanation))
+            {
+                Console.WriteLine("Balanced");
+                Console.WriteLine("Explanation: "+ explanation);
+            }
+            else
+            {
+                Console.WriteLine("Not balanced");
+                Console.WriteLine("Explanation: " + explanation);
+            }
         }
     }
 }
